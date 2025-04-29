@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Tanıtım Sayfası</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet"   href="script.js">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#">IM</a>
+            </div>
+            
+            <!-- Hamburger Menü Butonu -->
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#" class="active">Ana Sayfa</a></li>
+                <li><a href="#services">Hizmetler</a></li>
+                <li><a href="#projects">Projeler</a></li>
+                <li><a href="#pricing">Fiyatlandırma</a></li>
+                <li><a href="#faq">Yorumlar</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="hero-section">
+        <div class="hero-content">
+            <div class="tagline">
+                <h1>Yazılım ihtiyaçlarınıza <span class="highlight">özel çözümler</span> sunuyoruz</h1>
+                <p class="description">Freelance yazılım ekibimizle modern, güvenilir ve ölçeklenebilir projeler geliştiriyoruz.</p>
+                <p class="description">Web, mobil ve özel yazılım çözümlerimizle işinizi bir adım öteye taşıyın.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="hero-btn primary-btn">Projelerimiz</a>
+                    <a href="#pricing" class="hero-btn secondary-btn">Fiyat Planları</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Logo Şeridi -->
+        <div class="logo-marquee-container">
+            
+            <div class="logo-marquee">
+                <div class="logo-track">
+                    <div class="logo-item"><img src="logo1.png" alt="Logo 1"></div>
+                    <div class="logo-item"><img src="logo2.png" alt="Logo 2"></div>
+                    <div class="logo-item"><img src="logo3.png" alt="Logo 3"></div>
+                    <div class="logo-item"><img src="logo4.png" alt="Logo 4"></div>
+                    <div class="logo-item"><img src="logo5.png" alt="Logo 5"></div>
+                    <div class="logo-item"><img src="logo6.png" alt="Logo 6"></div>
+                    <!-- Aynı logoları tekrar ekleyerek sürekli akış sağlıyoruz -->
+                    <div class="logo-item"><img src="logo1.png" alt="Logo 1"></div>
+                    <div class="logo-item"><img src="logo2.png" alt="Logo 2"></div>
+                    <div class="logo-item"><img src="logo3.png" alt="Logo 3"></div>
+                    <div class="logo-item"><img src="logo4.png" alt="Logo 4"></div>
+                    <div class="logo-item"><img src="logo5.png" alt="Logo 5"></div>
+                    <div class="logo-item"><img src="logo6.png" alt="Logo 6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Hizmetlerimiz Bölümü -->
+    <section id="services" class="services-section">
+        <div class="services-container">
+            <h2 class="section-title" data-aos="fade-up">Hizmetlerimiz</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Sizin için sunduğumuz profesyonel hizmetler</p>
+            
+            <div class="services-cards">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>UI/UX Tasarım</h3>
+                    <p>Kullanıcı odaklı, estetik ve işlevsel arayüz tasarımları ile projelerinizi hayata geçiriyorum.</p>
+                   
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Geliştirme</h3>
+                    <p>Modern teknolojiler kullanarak responsive ve hızlı web siteleri geliştiriyorum.</p>
+                    
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobil Uygulama</h3>
+                    <p>iOS ve Android platformları için kullanıcı dostu mobil uygulamalar geliştiriyorum.</p>
+                   
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimizasyonu</h3>
+                    <p>Web sitenizin arama motorlarında üst sıralarda yer alması için SEO çalışmaları yapıyorum.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Süreç Kartları Bölümü -->
+    <section class="process-section">
+        <div class="process-container">
+            <h2 class="section-title" data-aos="fade-up">Çalışma Sürecimiz</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Projelerinizi hayata geçirirken izlediğimiz adımlar</p>
+            
+            <div class="process-cards">
+                <div class="process-card" data-aos="fade-right" data-aos-delay="200">
+                    <div class="process-number">01</div>
+                    <div class="process-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Danışmanlık & Planlama</h3>
+                    <p>İhtiyacınızı dinliyor, hedeflerinizi anlıyor ve size özel bir yol haritası oluşturuyoruz. Başarının temeli sağlam bir planlamadır.</p>
+                </div>
+                
+                <div class="process-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="process-number">02</div>
+                    <div class="process-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Tasarım & Geliştirme</h3>
+                    <p>Modern ve kullanıcı dostu arayüzler, güçlü altyapılarla buluşuyor. Web, mobil ve özel yazılım çözümleri üretiyoruz.</p>
+                </div>
+                
+                <div class="process-card" data-aos="fade-left" data-aos-delay="400">
+                    <div class="process-number">03</div>
+                    <div class="process-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Yayınlama & Destek</h3>
+                    <p>Uygulamanızı yayına alıyor, performansını izliyor ve uzun vadede sürdürülebilir başarı için bakım hizmeti sunuyoruz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projeler Bölümü -->
+    <section class="projects-section">
+        <div class="projects-container">
+            <h2 class="section-title" data-aos="fade-up">Projelerimiz</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Başarıyla tamamladığımız bazı çalışmalar</p>
+            
+            <div class="projects-grid">
+                <!-- Proje 1 -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="kapaklar/saruhan.png" alt="Proje 1">
+                        <div class="project-overlay">
+                            <a href="project-detail.html" class="project-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Tasarım</span>
+                        <h3>Hafriyat Tanıtım Web Sitesi</h3>
+                        <p>Modern ve kullanıcı dostu hafriyat tanıtım web sitesi tasarımı ve geliştirmesi.</p>
+                        <a href="https://saruhanhafriyat.com" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
+                        <a href="project-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
+                    </div>
+                </div>
+                
+                <!-- Proje 2 -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="kapaklar/hotel.png" alt="Proje 2">
+                        <div class="project-overlay">
+                            <a href="otel-detail.html" class="project-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Tasarımı</span>
+                        <h3>Otel Tanıtım Web Sitesi</h3>
+                        <p>Modern ve kullanıcı dostu otel tanıtım web sitesi tasarımı ve geliştirmesi.</p>
+                        <a href="https://emresefa17.github.io/Otel-Tanitim-Web-Sitesi/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
+                        <a href="otel-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
+                    </div>
+                </div>
+                
+                <!-- Proje 3 -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="kapaklar/lojistik.png" alt="Proje 2">
+                        <div class="project-overlay">
+                            <a href="lojistik-detail.html" class="project-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Tasarımı</span>
+                        <h3>Lojistik Tanıtım Web Sitesi</h3>
+                        <p>Modern ve kullanıcı dostu lojistik tanıtım web sitesi tasarımı ve geliştirmesi.</p>
+                        <a href="https://emresefa17.github.io/Lojistik-Tanitim-Web-Sites/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
+                        <a href="lojistik-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
+                    </div>
+                </div>
+                <!-- Proje 4 -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="kapaklar/forma.png" alt="Proje 2">
+                        <div class="project-overlay">
+                            <a href="forma-detail.html" class="project-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Tasarımı</span>
+                        <h3>Formacı E-Ticaret Web Sitesi</h3>
+                        <p>.</p>
+                        <a href="https://emresefa17.github.io/Formaci-E-Ticaret-Web-Sitesi/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
+                        <a href="forma-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
+                    </div>
+                </div>
+                
+                <!-- Proje 5 -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="project-image">
+                        <img src="kapaklar/pizza.png" alt="Proje 2">
+                        <div class="project-overlay">
+                            <a href="lojistik-detail.html" class="project-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Tasarımı</span>
+                        <h3>Pizzacı Tanıtım Web Sitesi</h3>
+                        <p>.</p>
+                        <a href="https://emresefa17.github.io/pizzac--tanitim-web-sitesi/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
+                        <a href="pizza-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
+                    </div>
+                </div>
+                
+                
+                <!-- Proje 6 -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="700">
+                    <div class="project-image">
+                        <img src="kapaklar/berber.png" alt="Proje 2">
+                        <div class="project-overlay">
+                            <a href="lojistik-detail.html" class="project-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Tasarımı</span>
+                        <h3>Berber Tanıtım Web Sitesi</h3>
+                        <p>Kullanıcıların fitness hedeflerini takip edebilecekleri mobil uygulama.</p>
+                        <a href="https://emresefa17.github.io/Berber-Tanitim-Web-Sitesi/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
+                        <a href="berber-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Hepsini Gör Butonu -->
+        <div class="view-all-container" data-aos="fade-up" data-aos-delay="800">
+            <a href="all-projects.html" class="view-all-btn">Tüm Projeleri Gör <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+    
+    <!-- Fiyatlandırma Bölümü -->
+    <section class="pricing-section">
+        <div class="pricing-container">
+            <h2 class="section-title" data-aos="fade-up">Fiyatlandırma Planları</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">İhtiyaçlarınıza uygun çözümler sunuyoruz</p>
+            
+            <div class="pricing-cards">
+                <!-- Başlangıç Paketi -->
+                <div class="pricing-card" data-aos="fade-right" data-aos-delay="200">
+                    <div class="pricing-header">
+                        <h3>Başlangıç</h3>
+                        <div class="price">
+                            <span class="currency">₺</span>
+                            <span class="amount">4.999</span>
+                            <span class="period">/aylık</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Temel Web Tasarımı</li>
+                            <li><i class="fas fa-check"></i> 5 Sayfa İçerik</li>
+                            <li><i class="fas fa-check"></i> Mobil Uyumlu Tasarım</li>
+                            <li><i class="fas fa-check"></i> Temel SEO Optimizasyonu</li>
+                            <li class="disabled"><i class="fas fa-times"></i> Özel Logo Tasarımı</li>
+                            <li class="disabled"><i class="fas fa-times"></i> E-Ticaret Özellikleri</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#" class="pricing-button">Hemen Başla</a>
+                    </div>
+                </div>
+                
+                <!-- Standart Paket -->
+                <div class="pricing-card popular" data-aos="fade-up" data-aos-delay="300">
+                    <div class="popular-badge">Popüler</div>
+                    <div class="pricing-header">
+                        <h3>Standart</h3>
+                        <div class="price">
+                            <span class="currency">₺</span>
+                            <span class="amount">9.999</span>
+                            <span class="period">/aylık</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Gelişmiş Web Tasarımı</li>
+                            <li><i class="fas fa-check"></i> 10 Sayfa İçerik</li>
+                            <li><i class="fas fa-check"></i> Mobil Uyumlu Tasarım</li>
+                            <li><i class="fas fa-check"></i> Kapsamlı SEO Optimizasyonu</li>
+                            <li><i class="fas fa-check"></i> Özel Logo Tasarımı</li>
+                            <li class="disabled"><i class="fas fa-times"></i> E-Ticaret Özellikleri</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#" class="pricing-button">Hemen Başla</a>
+                    </div>
+                </div>
+                
+                <!-- Premium Paket -->
+                <div class="pricing-card" data-aos="fade-left" data-aos-delay="400">
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="price">
+                            <span class="currency">₺</span>
+                            <span class="amount">14.999</span>
+                            <span class="period">/aylık</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Premium Web Tasarımı</li>
+                            <li><i class="fas fa-check"></i> Sınırsız Sayfa İçerik</li>
+                            <li><i class="fas fa-check"></i> Mobil Uyumlu Tasarım</li>
+                            <li><i class="fas fa-check"></i> İleri Düzey SEO Optimizasyonu</li>
+                            <li><i class="fas fa-check"></i> Özel Logo Tasarımı</li>
+                            <li><i class="fas fa-check"></i> E-Ticaret Özellikleri</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#" class="pricing-button">Hemen Başla</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SSS Bölümü -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2 class="section-title" data-aos="fade-up">Sıkça Sorulan Sorular</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Merak ettiğiniz soruların cevaplarını burada bulabilirsiniz</p>
+            
+            <div class="faq-accordion">
+                <!-- Soru 1 -->
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>Bir web sitesi yaptırmak ne kadar sürer?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Web sitesi geliştirme süresi, projenin kapsamına ve karmaşıklığına bağlı olarak değişir. Basit bir tanıtım sitesi 1-2 hafta içinde tamamlanabilirken, e-ticaret siteleri veya özel fonksiyonlar içeren projeler 4-8 hafta sürebilir. Proje başlangıcında size detaylı bir zaman çizelgesi sunuyoruz.</p>
+                    </div>
+                </div>
+                
+                <!-- Soru 2 -->
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>Mobil uyumlu web siteleri yapıyor musunuz?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Evet, tüm web sitelerimiz mobil uyumlu (responsive) olarak tasarlanmaktadır. Günümüzde internet trafiğinin büyük bir kısmı mobil cihazlardan geldiği için, tüm projelerimizde mobil kullanıcı deneyimini önceliklendiriyoruz.</p>
+                    </div>
+                </div>
+                
+                <!-- Soru 3 -->
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq-question">
+                        <h3>SEO hizmetleriniz neler içeriyor?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>SEO hizmetlerimiz; anahtar kelime araştırması, site içi optimizasyon, meta etiketleri düzenleme, içerik optimizasyonu, site hızı iyileştirme, mobil uyumluluk, backlink stratejileri ve düzenli performans raporlaması içerir. Amacımız, web sitenizin arama motorlarında üst sıralarda yer almasını sağlamaktır.</p>
+                    </div>
+                </div>
+                
+                <!-- Soru 4 -->
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="faq-question">
+                        <h3>Web sitenin bakımı ve güncellemeleri nasıl yapılır?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Web sitenizin bakımı ve güncellemeleri için aylık bakım paketleri sunuyoruz. Bu paketler; güvenlik güncellemeleri, içerik değişiklikleri, performans iyileştirmeleri ve teknik destek hizmetlerini içerir. Böylece sitenizin her zaman güncel ve güvenli kalmasını sağlıyoruz.</p>
+                    </div>
+                </div>
+                
+                <!-- Soru 5 -->
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="faq-question">
+                        <h3>Ödeme koşullarınız nelerdir?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Projelerimizde genellikle %40 başlangıç ödemesi, %30 tasarım onayı sonrası ve %30 proje tesliminde olmak üzere üç aşamalı bir ödeme planı uyguluyoruz. Büyük projeler için özel ödeme planları da oluşturabiliyoruz. Kredi kartı, banka havalesi ve online ödeme seçeneklerimiz mevcuttur.</p>
+                    </div>
+                </div>
+                
+                <!-- Soru 6 -->
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="700">
+                    <div class="faq-question">
+                        <h3>Projem için hangi teknolojileri kullanıyorsunuz?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Projelerinizin ihtiyaçlarına göre en uygun teknolojileri seçiyoruz. Frontend için HTML5, CSS3, JavaScript, React, Vue.js; backend için Node.js, PHP, Python; veritabanı için MySQL, MongoDB, PostgreSQL kullanıyoruz. E-ticaret projeleri için WooCommerce, Magento; içerik yönetim sistemleri için WordPress, Drupal gibi çözümler sunuyoruz.</p>
+                    </div>
+                </div>
+                
+                <!-- Soru 7 -->
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="800">
+                    <div class="faq-question">
+                        <h3>Proje sürecinde revizyon hakkım var mı?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Evet, tüm projelerimizde belirli sayıda ücretsiz revizyon hakkı sunuyoruz. Tasarım aşamasında 3, geliştirme aşamasında 2 revizyon hakkınız bulunmaktadır. Bu revizyonlar, projenin ana kapsamını değiştirmediği sürece ek ücret gerektirmez. Daha fazla revizyon talebi için ek ücretlendirme yapılabilir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- İletişim Formu Bölümü -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2 class="section-title" data-aos="fade-up">Projenizi Hayata Geçirelim</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Fikirlerinizi gerçeğe dönüştürmek için bizimle iletişime geçin</p>
+            
+            <div class="contact-form-container" data-aos="fade-up" data-aos-delay="200">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Adınız Soyadınız" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="E-posta Adresiniz" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Telefon Numaranız">
+                    </div>
+                    
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Hizmet Seçiniz</option>
+                            <option value="web">Web Tasarım</option>
+                            <option value="mobile">Mobil Uygulama</option>
+                            <option value="ecommerce">E-Ticaret</option>
+                            <option value="seo">SEO Optimizasyonu</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Projeniz hakkında detaylı bilgi veriniz..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group form-checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">Kişisel verilerin korunması hakkındaki <a href="#">aydınlatma metnini</a> okudum ve kabul ediyorum.</label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Gönder <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Bölümü -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <h2>IM</h2>
+                    <p>Yazılım ihtiyaçlarınıza özel çözümler sunuyoruz.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Hızlı Bağlantılar</h3>
+                    <ul>
+                        <li><a href="#">Ana Sayfa</a></li>
+                        <li><a href="#services">Hizmetler</a></li>
+                        <li><a href="#projects">Projeler</a></li>
+                        <li><a href="#pricing">Fiyatlandırma</a></li>
+                        <li><a href="#faq">Yorumlar</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Hizmetlerimiz</h3>
+                    <ul>
+                        <li><a href="#">UI/UX Tasarım</a></li>
+                        <li><a href="#">Web Geliştirme</a></li>
+                        <li><a href="#">Mobil Uygulama</a></li>
+                        <li><a href="#">SEO Optimizasyonu</a></li>
+                        <li><a href="#">Dijital Pazarlama</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>İletişim</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</p>
+                    <p><i class="fas fa-phone"></i> +90 555 123 4567</p>
+                    <p><i class="fas fa-envelope"></i> info@example.com</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Tüm Hakları Saklıdır. | Tasarım ve Geliştirme: <span>IM</span></p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease',
+            once: true,
+            offset: 100
+        });
+        
+        // Form gönderme işlemi
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Form verilerini al
+                    const formData = new FormData(contactForm);
+                    const formValues = Object.fromEntries(formData.entries());
+                    
+                    // Normalde burada bir API'ye form verilerini gönderirsiniz
+                    // Şimdilik sadece konsola yazdıralım
+                    console.log('Form verileri:', formValues);
+                    
+                    // Başarılı gönderim mesajı
+                    alert('Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.');
+                    
+                    // Formu sıfırla
+                    contactForm.reset();
+                });
+            }
+            
+            // Diğer JavaScript kodları...
+        });
+    </script>
+</body>
+</html>
