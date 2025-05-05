@@ -262,6 +262,7 @@ section {
 
 /* Hero Bölümü Stilleri - Güncelleme */
 .hero-section {
+    
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -2716,3 +2717,44 @@ section {
         padding: 30px;
     }
 }
+.project-info-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.project-technologies, 
+.project-features {
+    flex: 1;
+    min-width: 300px;
+}
+
+@media (max-width: 768px) {
+    .project-info-row {
+        flex-direction: column;
+    }
+}
+
+.live-demo-button {
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 107, 107, 0.3);
+  }
+  
+  .live-demo-button i {
+    margin-right: 8px;
+  }
+  
+  .live-demo-button:hover {
+    background-color: #ff5252;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(255, 107, 107, 0.4);
+  }
