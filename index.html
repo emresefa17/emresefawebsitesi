@@ -162,9 +162,23 @@
             <h2 class="section-title" data-aos="fade-up">Projelerimiz</h2>
             <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Başarıyla tamamladığımız bazı çalışmalar</p>
             
+            <!-- Kategori Butonları -->
+            <div class="category-buttons" data-aos="fade-up" data-aos-delay="150">
+                <button class="category-btn active" data-category="all">Tümü</button>
+                <button class="category-btn" data-category="web">Web Tasarımı</button>
+                <button class="category-btn" data-category="ecommerce">E-Ticaret</button>
+                <button class="category-btn" data-category="mobile">Mobil Uygulama</button>
+                <button class="category-btn" data-category="corporate">Kurumsal</button>
+            </div>
+            
+            <!-- Proje Sayısı -->
+            <div class="project-count-container" data-aos="fade-up" data-aos-delay="200">
+                <span class="project-count">8 proje bulundu</span>
+            </div>
+            
             <div class="projects-grid">
-                <!-- Proje 1 -->
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                <!-- Proje 1 - Web Tasarımı -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="200" data-category="web">
                     <div class="project-image">
                         <img src="kapaklar/pizza.png" alt="Proje 5">
                         <div class="project-overlay">
@@ -180,8 +194,8 @@
                     </div>
                 </div>
                 
-                <!-- Proje 2 -->
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+                <!-- Proje 2 - Kurumsal -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="300" data-category="corporate">
                     <div class="project-image">
                         <img src="kapaklar/hotel.png" alt="Proje 2">
                         <div class="project-overlay">
@@ -189,7 +203,7 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <span class="project-category">Web Tasarımı</span>
+                        <span class="project-category">Kurumsal</span>
                         <h3>Otel Tanıtım Web Sitesi</h3>
                         <p>Otel tanıtımı için etkileyici ve kullanıcı deneyimi odaklı web sitesi tasarımı.</p><br>
                         <a href="https://emresefa17.github.io/Otel-Tanitim-Web-Sitesi/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
@@ -197,8 +211,8 @@
                     </div>
                 </div>
                 
-                <!-- Proje 3 -->
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
+                <!-- Proje 3 - Web Tasarımı -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="400" data-category="web">
                     <div class="project-image">
                         <img src="kapaklar/berber.png" alt="Proje 6">
                         <div class="project-overlay">
@@ -213,8 +227,9 @@
                         <a href="berber-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
                     </div>
                 </div>
-                <!-- Proje 4 -->
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="500">
+                
+                <!-- Proje 4 - Web Tasarımı -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="500" data-category="web">
                     <div class="project-image">
                         <img src="kapaklar/tamir.png" alt="Proje 7">
                         <div class="project-overlay">
@@ -231,8 +246,8 @@
                     </div>
                 </div>
                 
-                <!-- Proje 5 -->
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="600">
+                <!-- Proje 5 - Web Tasarımı -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="600" data-category="web">
                     <div class="project-image">
                         <img src="kapaklar/yangin.png" alt="Proje 6">
                         <div class="project-overlay">
@@ -248,8 +263,8 @@
                     </div>
                 </div>
                 
-                <!-- Proje 6 -->
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="700">
+                <!-- Proje 6 - Kurumsal -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="700" data-category="corporate">
                     <div class="project-image">
                         <img src="kapaklar/saruhan.png" alt="Proje 1">
                         <div class="project-overlay">
@@ -257,18 +272,53 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <span class="project-category">Web Tasarım</span>
+                        <span class="project-category">Kurumsal</span>
                         <h3>Hafriyat Tanıtım Web Sitesi</h3>
                         <p>Hafriyat şirketi için modern, SEO uyumlu ve kullanıcı dostu web sitesi tasarımı.</p><br>
                         <a href="https://saruhanhafriyat.com" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
                         <a href="project-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
                     </div>
                 </div>
-        </div>
-        
-        <!-- Hepsini Gör Butonu -->
-        <div class="view-all-container" data-aos="fade-up" data-aos-delay="800">
-            <a href="all-projects.html" class="view-all-btn">Tüm Projeleri Gör <i class="fas fa-arrow-right"></i></a>
+                
+                <!-- Proje 7 - E-Ticaret -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="800" data-category="ecommerce">
+                    <div class="project-image">
+                        <img src="kapaklar/forma.png" alt="Proje 8">
+                        <div class="project-overlay">
+                            <a href="forma-detail.html" class="project-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">E-Ticaret</span>
+                        <h3>Forma Mağazası E-Ticaret Sitesi</h3>
+                        <p>Spor giyim mağazası için kapsamlı e-ticaret platformu ve ödeme sistemi entegrasyonu.</p><br>
+                        <a href="https://emresefa17.github.io/Forma-Magazasi-E-Ticaret/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
+                        <a href="forma-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
+                    </div>
+                </div>
+                
+                <!-- Proje 8 - Mobil Uygulama -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="900" data-category="mobile">
+                    <div class="project-image">
+                        <img src="kapaklar/gayrimenkül.png" alt="Proje 9">
+                        <div class="project-overlay">
+                            <a href="gayrimenkül-detail.html" class="project-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Mobil Uygulama</span>
+                        <h3>Gayrimenkul Mobil Uygulaması</h3>
+                        <p>Gayrimenkul arama ve filtreleme özellikli responsive mobil uygulama tasarımı.</p><br>
+                        <a href="https://emresefa17.github.io/Gayrimenkul-Mobil-Uygulamasi/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
+                        <a href="gayrimenkül-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hepsini Gör Butonu -->
+            <div class="view-all-container" data-aos="fade-up" data-aos-delay="800">
+                <a href="all-projects.html" class="view-all-btn">Tüm Projeleri Gör <i class="fas fa-arrow-right"></i></a>
+            </div>
         </div>
     </section>
     

@@ -40,10 +40,24 @@
             <h2 class="section-title">Tüm Projelerimiz</h2>
             <p class="section-subtitle">Başarıyla tamamladığımız çalışmalar</p>
             
+            <!-- Kategori Butonları -->
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">Tümü</button>
+                <button class="category-btn" data-category="web">Web Tasarımı</button>
+                <button class="category-btn" data-category="ecommerce">E-Ticaret</button>
+                <button class="category-btn" data-category="mobile">Mobil Uygulama</button>
+                <button class="category-btn" data-category="corporate">Kurumsal</button>
+            </div>
+            
+            <!-- Proje Sayısı -->
+            <div class="project-count-container">
+                <span class="project-count">16 proje bulundu</span>
+            </div>
+            
             <div class="projects-grid">
     
-                <!-- Proje 1 -->
-                <div class="project-card">
+                <!-- Proje 1 - Kurumsal -->
+                <div class="project-card" data-category="corporate">
                     <div class="project-image">
                         <img src="kapaklar/saruhan.png" alt="Proje 1">
                         <div class="project-overlay">
@@ -51,7 +65,7 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <span class="project-category">Web Tasarım</span>
+                        <span class="project-category">Kurumsal</span>
                         <h3>Hafriyat Tanıtım Web Sitesi</h3>
                         <p>Hafriyat şirketi için modern, SEO uyumlu ve kullanıcı dostu web sitesi tasarımı.</p><br>
                         <a href="https://saruhanhafriyat.com" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
@@ -59,8 +73,8 @@
                     </div>
                 </div>
     
-                <!-- Proje 2 -->
-                <div class="project-card">
+                <!-- Proje 2 - Kurumsal -->
+                <div class="project-card" data-category="corporate">
                     <div class="project-image">
                         <img src="kapaklar/hotel.png" alt="Proje 2">
                         <div class="project-overlay">
@@ -68,7 +82,7 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <span class="project-category">Web Tasarımı</span>
+                        <span class="project-category">Kurumsal</span>
                         <h3>Otel Tanıtım Web Sitesi</h3>
                         <p>Otel tanıtımı için etkileyici ve kullanıcı deneyimi odaklı web sitesi tasarımı.</p><br>
                         <a href="https://emresefa17.github.io/Otel-Tanitim-Web-Sitesi/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
@@ -76,8 +90,8 @@
                     </div>
                 </div>
     
-                <!-- Proje 3 -->
-                <div class="project-card">
+                <!-- Proje 3 - Web Tasarımı -->
+                <div class="project-card" data-category="web">
                     <div class="project-image">
                         <img src="kapaklar/yangin.png" alt="Proje 3">
                         <div class="project-overlay">
@@ -93,8 +107,8 @@
                     </div>
                 </div>
     
-                <!-- Proje 4 -->
-                <div class="project-card">
+                <!-- Proje 4 - Web Tasarımı -->
+                <div class="project-card" data-category="web">
                     <div class="project-image">
                         <img src="kapaklar/pizza.png" alt="Proje 4">
                         <div class="project-overlay">
@@ -110,8 +124,8 @@
                     </div>
                 </div>
     
-                <!-- Proje 5 -->
-                <div class="project-card">
+                <!-- Proje 5 - Web Tasarımı -->
+                <div class="project-card" data-category="web">
                     <div class="project-image">
                         <img src="kapaklar/berber.png" alt="Proje 5">
                         <div class="project-overlay">
@@ -121,14 +135,14 @@
                     <div class="project-info">
                         <span class="project-category">Web Tasarımı</span>
                         <h3>Berber Tanıtım Web Sitesi</h3>
-                        <p>Berber salonu için  etkili tanıtım web sitesi tasarımı.</p><br>
+                        <p>Berber salonu için etkili tanıtım web sitesi tasarımı.</p><br>
                         <a href="https://emresefa17.github.io/Berber-Tanitim-Web-Sitesi/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
                         <a href="berber-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
                     </div>
                 </div>
     
-                <!-- Proje 6 -->
-                <div class="project-card">
+                <!-- Proje 6 - Web Tasarımı -->
+                <div class="project-card" data-category="web">
                     <div class="project-image">
                         <img src="kapaklar/tamir.png" alt="Proje 6">
                         <div class="project-overlay">
@@ -138,14 +152,14 @@
                     <div class="project-info">
                         <span class="project-category">Web Tasarımı</span>
                         <h3>Araç Tamir Web Sitesi</h3>
-                        <p>Araç tamir hizmetlerini tanıtan profesyonel web sitesi tasarımı.</p>><br>
+                        <p>Araç tamir hizmetlerini tanıtan profesyonel web sitesi tasarımı.</p><br>
                         <a href="https://emresefa17.github.io/Arac-Tamir-Web-Sitesi/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
                         <a href="tamir-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
                     </div>
                 </div>
     
-                <!-- Proje 7 -->
-                <div class="project-card">
+                <!-- Proje 7 - Web Tasarımı -->
+                <div class="project-card" data-category="web">
                     <div class="project-image">
                         <img src="kapaklar/sondur.png" alt="Proje 7">
                         <div class="project-overlay">
@@ -161,8 +175,8 @@
                     </div>
                 </div>
     
-                <!-- Proje 8 -->
-                <div class="project-card">
+                <!-- Proje 8 - Web Tasarımı -->
+                <div class="project-card" data-category="web">
                     <div class="project-image">
                         <img src="kapaklar/lojistik.png" alt="Proje 8">
                         <div class="project-overlay">
@@ -178,8 +192,8 @@
                     </div>
                 </div>
     
-                <!-- Proje 9 -->
-                <div class="project-card">
+                <!-- Proje 9 - E-Ticaret -->
+                <div class="project-card" data-category="ecommerce">
                     <div class="project-image">
                         <img src="kapaklar/forma.png" alt="Proje 9">
                         <div class="project-overlay">
@@ -187,17 +201,18 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <span class="project-category">Web Tasarımı</span>
+                        <span class="project-category">E-Ticaret</span>
                         <h3>Forma Tanıtım Web Sitesi</h3>
                         <p>Spor forması satışı yapan firma için modern ve satış odaklı bir web sitesi tasarımı.</p><br>
                         <a href="https://emresefa17.github.io/Formaci-E-Ticaret-Web-Sitesi/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
                         <a href="forma-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
                     </div>
                 </div>
-                <!-- Proje 10 -->
-                 <div class="project-card">
+                
+                <!-- Proje 10 - Web Tasarımı -->
+                 <div class="project-card" data-category="web">
                     <div class="project-image">
-                        <img src="kapaklar/emlakgaleri.png" alt="Proje 9">
+                        <img src="kapaklar/emlakgaleri.png" alt="Proje 10">
                         <div class="project-overlay">
                             <a href="emlakgaleri-detail.html" class="project-link"><i class="fas fa-link"></i></a>
                         </div>
@@ -205,16 +220,16 @@
                     <div class="project-info">
                         <span class="project-category">Web Tasarımı</span>
                         <h3>Emlak Galeri Tanıtım Web Sitesi</h3>
-                        <p>Spor forması satışı yapan firma için modern ve satış odaklı bir web sitesi tasarımı.</p><br>
+                        <p>Emlak galerisi için modern ve kullanıcı dostu web sitesi tasarımı.</p><br>
                         <a href="https://emresefa17.github.io/Emlak-Galerisi-Web-Sitesi/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
                         <a href="emlakgaleri-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
                     </div>
                 </div>
-                <!-- Proje 11 -->
-
-                   <div class="project-card">
+                
+                <!-- Proje 11 - Web Tasarımı -->
+                   <div class="project-card" data-category="web">
                     <div class="project-image">
-                        <img src="kapaklar/danısman.png" alt="Proje 9">
+                        <img src="kapaklar/danısman.png" alt="Proje 11">
                         <div class="project-overlay">
                             <a href="danisman-detail.html" class="project-link"><i class="fas fa-link"></i></a>
                         </div>
@@ -222,73 +237,69 @@
                     <div class="project-info">
                         <span class="project-category">Web Tasarımı</span>
                         <h3>Danışman Tanıtım Web Sitesi</h3>
-                        <p>Spor forması satışı yapan firma için modern ve satış odaklı bir web sitesi tasarımı.</p><br>
+                        <p>Danışmanlık hizmetleri sunan firma için profesyonel web sitesi tasarımı.</p><br>
                         <a href="https://emresefa17.github.io/Formaci-E-Ticaret-Web-Sitesi/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
                         <a href="danisman-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
                     </div>
                 </div>
 
-                  <!-- Proje 12 -->
-
-                   <div class="project-card">
+                  <!-- Proje 12 - Mobil Uygulama -->
+                   <div class="project-card" data-category="mobile">
                     <div class="project-image">
-                        <img src="kapaklar/gayrimenkül.png" alt="Proje 9">
+                        <img src="kapaklar/gayrimenkül.png" alt="Proje 12">
                         <div class="project-overlay">
                             <a href="gayrimenkül-detail.html" class="project-link"><i class="fas fa-link"></i></a>
                         </div>
                     </div>
                     <div class="project-info">
-                        <span class="project-category">Web Tasarımı</span>
-                        <h3>Gayrimenkül Tanıtım Web Sitesi</h3>
-                        <p>Spor forması satışı yapan firma için modern ve satış odaklı bir web sitesi tasarımı.</p><br>
+                        <span class="project-category">Mobil Uygulama</span>
+                        <h3>Gayrimenkül Mobil Uygulaması</h3>
+                        <p>Gayrimenkul arama ve filtreleme özellikli responsive mobil uygulama tasarımı.</p><br>
                         <a href="https://gentle-choux-07e271.netlify.app/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
                         <a href="gayrimenkül-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
                     </div>
                 </div>
 
-                   <!-- Proje 13 -->
-
-                   <div class="project-card">
+                   <!-- Proje 13 - E-Ticaret -->
+                   <div class="project-card" data-category="ecommerce">
                     <div class="project-image">
-                        <img src="kapaklar/gamestore.png" alt="Proje 9">
+                        <img src="kapaklar/gamestore.png" alt="Proje 13">
                         <div class="project-overlay">
                             <a href="gamestore-detail.html" class="project-link"><i class="fas fa-link"></i></a>
                         </div>
                     </div>
                     <div class="project-info">
-                        <span class="project-category">Web Tasarımı</span>
+                        <span class="project-category">E-Ticaret</span>
                         <h3>Oyun Satış Web Sitesi</h3>
-                        <p>Spor forması satışı yapan firma için modern ve satış odaklı bir web sitesi tasarımı.</p><br>
+                        <p>Oyun satışı yapan e-ticaret platformu için modern web sitesi tasarımı.</p><br>
                         <a href="https://stellar-douhua-6dd0ab.netlify.app/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
                         <a href="gamestore-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
                     </div>
                 </div>
     
 
-                  <!-- Proje 14 -->
-
-                   <div class="project-card">
+                  <!-- Proje 14 - Kurumsal -->
+                   <div class="project-card" data-category="corporate">
                     <div class="project-image">
-                        <img src="kapaklar/engingemi.png" alt="Proje 9">
+                        <img src="kapaklar/engingemi.png" alt="Proje 14">
                         <div class="project-overlay">
                             <a href="engingemi-detail.html" class="project-link"><i class="fas fa-link"></i></a>
                         </div>
                     </div>
                     <div class="project-info">
-                        <span class="project-category">Web Tasarımı</span>
+                        <span class="project-category">Kurumsal</span>
                         <h3>Engin Gemi Web Sitesi</h3>
-                        <p>Spor forması satışı yapan firma için modern ve satış odaklı bir web sitesi tasarımı.</p><br>
+                        <p>Gemi şirketi için kurumsal web sitesi tasarımı.</p><br>
                         <a href="https://engingemi.com" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
                         <a href="engingemi-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
                     </div>
                 </div>
                 
 
-                 <!-- Proje 14 -->
-
-                 <div class="project-card">
+                 <!-- Proje 15 - Web Tasarımı -->
+                 <div class="project-card" data-category="web">
                     <div class="project-image">
-                        <img src="kapaklar/petcare.png" alt="Proje 9">
+                        <img src="kapaklar/petcare.png" alt="Proje 15">
                         <div class="project-overlay">
                             <a href="petcare-detail.html" class="project-link"><i class="fas fa-link"></i></a>
                         </div>
@@ -296,17 +307,16 @@
                     <div class="project-info">
                         <span class="project-category">Web Tasarımı</span>
                         <h3>Pet Care Web Sitesi</h3>
-                        <p>Spor forması satışı yapan firma için modern ve satış odaklı bir web sitesi tasarımı.</p><br>
+                        <p>Evcil hayvan bakım hizmetleri için modern web sitesi tasarımı.</p><br>
                         <a href="https://fabulous-selkie-aa66a7.netlify.app/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
                         <a href="petcare-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
                     </div>
                 </div>
 
-                 <!-- Proje 15 -->
-
-                 <div class="project-card">
+                 <!-- Proje 16 - Web Tasarımı -->
+                 <div class="project-card" data-category="web">
                     <div class="project-image">
-                        <img src="kapaklar/ajans.png" alt="Proje 9">
+                        <img src="kapaklar/ajans.png" alt="Proje 16">
                         <div class="project-overlay">
                             <a href="ajans-detail.html" class="project-link"><i class="fas fa-link"></i></a>
                         </div>
@@ -314,26 +324,18 @@
                     <div class="project-info">
                         <span class="project-category">Web Tasarımı</span>
                         <h3>Ajans Tanıtım Web Sitesi</h3>
-                        <p>Spor forması satışı yapan firma için modern ve satış odaklı bir web sitesi tasarımı.</p><br>
+                        <p>Reklam ajansı için modern ve yaratıcı web sitesi tasarımı.</p><br>
                         <a href="https://fabulous-selkie-aa66a7.netlify.app/" class="project-btn demo-btn"><i class="fas fa-play"></i> Canlı Demo</a>
                         <a href="ajans-detail.html" class="project-btn detail-btn"><i class="fas fa-info-circle"></i> Detay</a>
                     </div>
                 </div>
 
-                
-                 
-
-
-                
-                  <!-- Proje 12 -->
-
-                <!-- Daha fazla proje eklenebilir -->
-    
             </div>
         </div>
     </section>
     
     <!-- JavaScript Animasyonları -->
+    <script src="script.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Proje kartları için animasyonlar
@@ -373,6 +375,58 @@
                 hamburger.classList.toggle('active');
                 navLinks.classList.toggle('active');
             });
+            
+            // Kategori Filtreleme Fonksiyonu
+            const categoryButtons = document.querySelectorAll('.category-btn');
+            
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const selectedCategory = button.getAttribute('data-category');
+                    
+                    // Aktif buton stilini güncelle
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+                    
+                    // Projeleri filtrele
+                    projectCards.forEach(card => {
+                        const cardCategory = card.getAttribute('data-category');
+                        
+                        if (selectedCategory === 'all' || cardCategory === selectedCategory) {
+                            // Kartı göster
+                            card.style.display = 'block';
+                            card.style.opacity = '1';
+                            card.style.transform = 'scale(1)';
+                            card.classList.remove('hidden');
+                            card.classList.add('visible');
+                        } else {
+                            // Kartı gizle
+                            card.style.display = 'none';
+                            card.style.opacity = '0';
+                            card.style.transform = 'scale(0.8)';
+                            card.classList.add('hidden');
+                            card.classList.remove('visible');
+                        }
+                    });
+                    
+                    // Proje sayısını güncelle
+                    updateProjectCount(selectedCategory);
+                });
+            });
+            
+            // Proje sayısını güncelleme fonksiyonu
+            function updateProjectCount(category) {
+                const visibleProjects = category === 'all' 
+                    ? projectCards.length 
+                    : document.querySelectorAll(`.project-card[data-category="${category}"]`).length;
+                
+                const projectCountElement = document.querySelector('.project-count');
+                if (projectCountElement) {
+                    projectCountElement.textContent = `${visibleProjects} proje bulundu`;
+                }
+            }
+            
+            // Sayfa yüklendiğinde tüm projeleri göster
+            updateProjectCount('all');
         });
     </script>
 </body>

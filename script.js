@@ -33,5 +33,65 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+    
+    // Kategori Filtreleme Fonksiyonu
+    const categoryButtons = document.querySelectorAll('.category-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+    
+    categoryButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const selectedCategory = button.getAttribute('data-category');
+            
+            // Aktif buton stilini güncelle
+            categoryButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            
+            // Projeleri filtrele
+            projectCards.forEach(card => {
+                const cardCategory = card.getAttribute('data-category');
+                
+                if (selectedCategory === 'all' || cardCategory === selectedCategory) {
+                    // Kartı göster
+                    card.style.display = 'block';
+                    card.style.opacity = '1';
+                    card.style.transform = 'scale(1)';
+                    card.classList.remove('hidden');
+                    card.classList.add('visible');
+                } else {
+                    // Kartı gizle
+                    card.style.display = 'none';
+                    card.style.opacity = '0';
+                    card.style.transform = 'scale(0.8)';
+                    card.classList.add('hidden');
+                    card.classList.remove('visible');
+                }
+            });
+            
+            // Proje sayısını güncelle
+            updateProjectCount(selectedCategory);
+        });
+    });
+    
+    // Proje sayısını güncelleme fonksiyonu
+    function updateProjectCount(category) {
+        const visibleProjects = category === 'all' 
+            ? projectCards.length 
+            : document.querySelectorAll(`.project-card[data-category="${category}"]`).length;
+        
+        // Eğer proje sayısı gösteren bir element varsa güncelle
+        const projectCountElement = document.querySelector('.project-count');
+        if (projectCountElement) {
+            projectCountElement.textContent = `${visibleProjects} proje bulundu`;
+        }
+    }
+    
+    // Sayfa yüklendiğinde tüm projeleri göster
+    updateProjectCount('all');
+    
+    // Başlangıçta proje sayısını güncelle
+    const projectCountElement = document.querySelector('.project-count');
+    if (projectCountElement) {
+        projectCountElement.textContent = '8 proje bulundu';
+    }
 });
 // ... existing code ...
